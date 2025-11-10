@@ -91,15 +91,10 @@ docker build -t thabetabdullah73/mlflow-iris-service:latest ...
 يتم تعيين المنفذ الداخلي 5001 على المنفذ الخارجي 5002 للمضيف.
 ---
 
-## 🖼️ متطلبات لقطات الشاشة (Screenshots)
-
-للإيفاء بمتطلبات قسم `Screenshots and Commands`، ستحتاج إلى **لقطتي شاشة أساسيتين** (بالإضافة إلى إمكانية إضافة لقطات أخرى اختيارية):
-
-| عدد اللقطات المطلوبة | عنوان لقطة الشاشة | الغرض |
-| :--- | :--- | :--- |
 ## 🖼️ Image Screen (Run App)
 
-![MLflow Screenshot](https://i.ibb.co/0pMNXgpW/mlflow.png)
+![MLflow Screenshot](https://raw.githubusercontent.com/AbdullahDawii/MLOps-Engineer-AI-Infrastructure/main/assets/mlflow.png)
+
 
 
 
@@ -116,3 +111,6 @@ docker build -t thabetabdullah73/mlflow-iris-service:latest ...
 3.  لقطة شاشة للواجهة الويب (اختياري).
   -p 5002:5001 \
   thabetabdullah73/mlflow-iris-service:latest
+
+
+
