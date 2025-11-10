@@ -1,16 +1,32 @@
-# ملفات قواعد البيانات والتتبع الخاصة بـ MLflow
-mlflow.db
-mlruns/
-.mlflow/
-
-# ملفات Python المترجمة
+# ملفات ومجلدات Python الأساسية
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.venv/
 venv/
+env/
+pip-log.txt
+pip-delete-this-log.txt
+.Python
 
-# Docker وصور
-*.tar
-*.iso
+# ملفات ومجلدات MLOps و Jupyter/VS Code
+.ipynb_checkpoints/
+.vscode/
+mlruns/                 # مجلد MLflow (عادةً لا يتم رفعه إذا كنت تستخدم تتبعًا بعيدًا)
+artifacts/              # مجلد لتخزين مخرجات النماذج/البيانات المؤقتة
+*.model                 # ملفات النماذج النهائية
+*.pkl
+*.h5
 
-# Logs
-*.log
+# ملفات البيانات الكبيرة (يجب عدم رفعها)
+data/
+data/*
+.csv
+.parquet
+.db
+
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
