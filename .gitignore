@@ -1,0 +1,16 @@
+# ملفات قواعد البيانات والتتبع الخاصة بـ MLflow
+mlflow.db
+mlruns/
+.mlflow/
+
+# ملفات Python المترجمة
+__pycache__/
+*.pyc
+venv/
+
+# Docker وصور
+*.tar
+*.iso
+
+# Logs
+*.log
